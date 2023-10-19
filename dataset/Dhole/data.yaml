@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['dhole']
+
+roboflow:
+  workspace: -wpooj
+  project: n02115913-dhole
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/-wpooj/n02115913-dhole/dataset/1

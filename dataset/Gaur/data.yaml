@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['1']
+
+roboflow:
+  workspace: ukrit_benz-hotmail-com
+  project: gaur
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ukrit_benz-hotmail-com/gaur/dataset/1

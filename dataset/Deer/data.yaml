@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Deer']
+
+roboflow:
+  workspace: my-workspace-7m1hi
+  project: deer-xe1lh
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/my-workspace-7m1hi/deer-xe1lh/dataset/1

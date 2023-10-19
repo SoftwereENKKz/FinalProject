@@ -1,0 +1,13 @@
+names:
+- Airedale-body
+- Airedale-head
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: dhole
+  url: https://universe.roboflow.com/vincent19961112/dhole/dataset/1
+  version: 1
+  workspace: vincent19961112
+test: ../test/images
+train: dhole-1/train/images
+val: dhole-1/valid/images

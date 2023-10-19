@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Monkey']
+
+roboflow:
+  workspace: my-workspace-7m1hi
+  project: alloid-9bygw
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/my-workspace-7m1hi/alloid-9bygw/dataset/7

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['leopard-cat']
+
+roboflow:
+  workspace: project-ozodb
+  project: where-s-the-leopard-cat
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/project-ozodb/where-s-the-leopard-cat/dataset/1
